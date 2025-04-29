@@ -150,7 +150,8 @@ class Score:
 
     def update(self,screen:pg.surface,scoresum):
         self.img = self.fonto.render("score:"+str(scoresum),0,(0,0,255))
-        screen.blit(self.img,[100,600])
+        screen.blit(self.img,[100,600]) 
+        # blit
 
         
 
