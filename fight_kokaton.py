@@ -160,6 +160,7 @@ class Score:
 
 def main():
     score_sum=0
+    multibeamsan=[]
     pg.display.set_caption("たたかえ！こうかとん")
     screen = pg.display.set_mode((WIDTH, HEIGHT))    
     bg_img = pg.image.load("fig/pg_bg.jpg")
